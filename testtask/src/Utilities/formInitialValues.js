@@ -1,0 +1,18 @@
+export const formInitialValues = {
+  firstName: '',
+  lastName: '',
+  organisation: '',
+  email: '',
+  phone: '',
+  country: '',
+  city: '',
+  area: '',
+  address: '',
+  postCode: '',
+  firstNumbers: '',
+  secondNumbers: '',
+  thirdNumbers: '',
+  firthNumbers: '',
+  cardExpiredData: '',
+  CVV: '',
+}

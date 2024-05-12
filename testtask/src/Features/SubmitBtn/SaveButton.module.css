@@ -1,0 +1,22 @@
+.gradientButton {
+    background: linear-gradient(90deg, #FF3838 0%, #9B30FF 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.disabledButton {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+

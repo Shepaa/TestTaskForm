@@ -1,0 +1,158 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formTitle {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #383d5b;
+}
+
+
+
+.fieldsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.leftFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowFields {
+    display: flex;
+    gap: 20px;
+}
+
+.fieldItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.lastName {
+    margin-left: 7%;
+}
+
+
+.InputFieldWidthFix input {
+    width: 106%;
+}
+
+
+
+.fieldItem input {
+    height: 25px;
+    border: none;
+    background-color: #f4f6fb;
+    border-radius: 5px;
+}
+
+.PostCodeWidthFix input {
+    width: 42%;
+}
+
+.helpBlockWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.subTitles {
+    color: rgba(83, 90, 108, 0.52);
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.helpBlockOptionWrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 140px;
+    margin-bottom: 30px;
+}
+
+.helpBlockItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpBlockOption {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #383d5b;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.Icon {
+    font-size: 30px;
+}
+
+.paymentBlock {
+    width: 65%;
+    border: 1px solid rgba(118, 123, 152, 0.62);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+.paymentTitle {
+    color: rgba(83, 90, 108, 0.52);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cardOption {
+    width: 150px;
+    background-color: #c2c2cc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.cardTitleWrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.cardRowWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.helpBlockOptionTitle {
+    color: rgba(83, 90, 108, 0.52);
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 900;
+}

@@ -1,0 +1,68 @@
+.cardWrapper {
+    width: 100%;
+    background-color: #c2c2cc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.cardTitle {
+    color: rgba(255, 255, 255, 0.66);
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+
+.cardNumbersWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cardNumbers input {
+    width: 50px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.66);
+    border: none;
+    border-radius: 5px;
+}
+
+.cardSecurityData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.cardSecurityDataInputs input{
+    width: 70px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.66);
+    border: none;
+    border-radius: 5px;
+}
+
+.cardSecurityDataTitle{
+    color: rgba(255, 255, 255, 0.66);
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.CvvPositionFix{
+    margin-right: 20px;
+}
+
+.ExpiredDataPositionFix{
+    margin-left: 20px;
+}

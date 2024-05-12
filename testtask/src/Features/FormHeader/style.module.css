@@ -1,0 +1,12 @@
+.formTitle {
+    font-family: 'Gilroy-ExtraBold', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #383d5b;
+}
+
+.formSwitcherWrapper {
+    margin-top: 10px;
+    border: 1px solid #383d5b;
+    display: flex;
+}
